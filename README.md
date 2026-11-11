@@ -78,12 +78,12 @@ Use `dtminer.exe` in Windows Command Prompt or `./dtminer` on Linux.
 
 | Pool | Mining endpoint | Dashboard |
 |---|---|---|
-| Midstate + Midwimble | `mds-mid.dreamteamcrypto.xyz:3336` | [MDS / MW](https://mds-mid.dreamteamcrypto.xyz/pool/midwimble/) |
-| Discrete / XDS | `https://xds.dreamteamcrypto.xyz:9340` | [XDS](https://xds.dreamteamcrypto.xyz/) |
+| Midstate + Midwimble | `mds-mid.dreamteamcrypto.xyz:3336` | [MDS / MW](https://dreamteamcrypto.xyz/pool-mds-mw) |
+| Discrete / XDS | `https://xds.dreamteamcrypto.xyz:9340` | [XDS](https://dreamteamcrypto.xyz/pool-discrete) |
 
 Walk work starts at MDS height **371500** and MW height **37300**. DTminer waits
 when the pool supplies BLAKE3-only jobs. The XDS mining endpoint must include
-**HTTPS and port 9340**, even though its browser dashboard uses the normal web port.
+**HTTPS and port 9340**.
 
 ## Requirements and fees
 

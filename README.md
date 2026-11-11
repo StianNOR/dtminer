@@ -40,6 +40,16 @@ AMD Threadripper PRO 5995WX, Windows 11:
 ² Measured on 10 November 2026 on a workstation that was fully loaded by other
 work at the time; an idle CPU is faster. [Full results](BENCHMARKS.md).
 
+## Easy install
+
+Open the setup page for your pool, enter your public payout address or addresses
+and thread count, then copy the generated one-line command to install and run dtminer.
+
+| Pool | Setup | Dashboard |
+| --- | --- | --- |
+| Midstate + Midwimble (Walk) | [Install for MDS + MW](https://dreamteamcrypto.xyz/pool-mds-mw-connect) | [Pool stats](https://dreamteamcrypto.xyz/pool-mds-mw) |
+| Discrete (XDS) | [Install for Discrete](https://dreamteamcrypto.xyz/pool-discrete-connect) | [Pool stats](https://dreamteamcrypto.xyz/pool-discrete) |
+
 ## Get started with v1.5.1
 
 1. Download the archive for your operating system and extract the **whole folder**.

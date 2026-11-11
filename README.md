@@ -24,6 +24,16 @@ coins from the same work.
 Compiled binaries are in the **[Releases](../../releases)** (Windows x64 and Linux x86-64, with
 SHA-256 checksums).
 
+## Easy install
+
+Open the setup page for your pool, enter your public payout address or addresses
+and thread count, then copy the generated one-line command to install and run dtminer.
+
+| Pool | Setup | Dashboard |
+| --- | --- | --- |
+| Midstate + Midwimble (Walk) | [Install for MDS + MW](https://dreamteamcrypto.xyz/pool-mds-mw-connect) | [Pool stats](https://dreamteamcrypto.xyz/pool-mds-mw) |
+| Discrete (XDS) | [Install for Discrete](https://dreamteamcrypto.xyz/pool-discrete-connect) | [Pool stats](https://dreamteamcrypto.xyz/pool-discrete) |
+
 ## Quick start
 
 DreamTeam MDS + MW pool: `mds-mid.dreamteamcrypto.xyz:3336` (PPLNS; the IP is `62.84.176.247:3336`).

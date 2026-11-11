@@ -68,7 +68,7 @@ about 17 MiB of memory.
 ### Command-line examples
 
 ```text
-dtminer --algo walk --pool mds-mid.dreamteamcrypto.xyz:3336 --mds YOUR_MDS_ADDRESS --mw YOUR_MW_ADDRESS --worker rig1 --threads auto
+dtminer --algo walk --pool stratum+tcp://mds-mid.dreamteamcrypto.xyz:3336 --mds YOUR_MDS_ADDRESS --mw YOUR_MW_ADDRESS --worker rig1 --threads auto
 dtminer --algo xds --pool https://xds.dreamteamcrypto.xyz:9340 --address-file xds-address.txt --worker rig1 --threads auto
 ```
 
@@ -78,7 +78,7 @@ Use `dtminer.exe` in Windows Command Prompt or `./dtminer` on Linux.
 
 | Pool | Mining endpoint | Dashboard |
 |---|---|---|
-| Midstate + Midwimble | `mds-mid.dreamteamcrypto.xyz:3336` | [MDS / MW](https://dreamteamcrypto.xyz/pool-mds-mw) |
+| Midstate + Midwimble | `stratum+tcp://mds-mid.dreamteamcrypto.xyz:3336` | [MDS / MW](https://dreamteamcrypto.xyz/pool-mds-mw) |
 | Discrete / XDS | `https://xds.dreamteamcrypto.xyz:9340` | [XDS](https://dreamteamcrypto.xyz/pool-discrete) |
 
 Walk work starts at MDS height **371500** and MW height **37300**. DTminer waits

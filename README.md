@@ -1,6 +1,6 @@
 # DTminer
 
-**Walk + XDS. One DreamTeam CPU miner.**
+**DTminer v1.5.1 — Walk + XDS. One DreamTeam CPU miner.**
 
 DTminer brings **our optimized Walk engine** and **Discrete (XDS) mining**
 together in one program for Windows and Linux. Follow your hashrate, accepted
@@ -23,20 +23,24 @@ shares and connection status in the live terminal dashboard.
 
 ## Performance snapshot
 
+The following measurements were recorded with the v1.5.0 hashing engines, which
+remain unchanged in v1.5.1. These are historical benchmark results, **not new
+v1.5.1 measurements**.
+
 AMD Threadripper PRO 5995WX, Windows 11:
 
 | Algorithm | Threads | Measured rate |
 |---|---:|---:|
 | Walk, optimized engine¹ | 128 | **37.1–39.9k attempts/s** |
-| Walk, DTminer 1.5.0 | 1 | **331 attempts/s**² |
-| XDS, DTminer 1.5.0 | 1 | **84–86 H/s**² |
-| XDS, DTminer 1.5.0, live pool | 1 | **82 H/s**² |
+| Walk, same engine (v1.5.0 measurement) | 1 | **331 attempts/s**² |
+| XDS (v1.5.0 measurement) | 1 | **84–86 H/s**² |
+| XDS, live pool (v1.5.0 measurement) | 1 | **82 H/s**² |
 
 ¹ Measured on 6 November 2026 with the same optimized Walk engine.
 ² Measured on 10 November 2026 on a workstation that was fully loaded by other
 work at the time; an idle CPU is faster. [Full results](BENCHMARKS.md).
 
-## Get started
+## Get started with v1.5.1
 
 1. Download the archive for your operating system and extract the **whole folder**.
 2. Add your **public payout address** to the matching launch example.
